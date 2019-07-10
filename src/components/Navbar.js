@@ -27,14 +27,6 @@ class Navbar extends Component {
                                     <li className="nav-item"><Link className="nav-link" to="/portofolio">Portofolio</Link></li>
                                     <li className="nav-item submenu dropdown">
                                         <Link className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
-                                            aria-expanded="false">Pages</Link>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item"><Link className="nav-link" to="/">Elements</Link></li>
-                                            <li className="nav-item"><Link className="nav-link" to="/">Portfolio Details</Link></li>
-                                        </ul>
-                                    </li>
-                                    <li className="nav-item submenu dropdown">
-                                        <Link className="nav-link dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true"
                                             aria-expanded="false">Blog</Link>
                                         <ul className="dropdown-menu">
                                             <li className="nav-item"><Link className="nav-link" to="/">Blog</Link></li>

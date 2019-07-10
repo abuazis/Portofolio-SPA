@@ -2,6 +2,8 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Link } from 'react-router-dom';
 
 import Navbar from './components/Navbar';
+import Footer from './components/Footer';
+import Home from './components/Home/Home';
 
 import './assets/css/bootstrap.css';
 import './assets/vendors/linericon/style.css';
@@ -18,6 +20,10 @@ class App extends Component {
       <Router>
         <div className="wrapper">
           <Navbar />
+
+          <Route path="/" exact component={Home} />
+
+          <Footer />
         </div>
       </Router>
     )
